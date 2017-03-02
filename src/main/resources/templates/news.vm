@@ -1,0 +1,16 @@
+<html>
+<body>
+<p>
+    Hello vm!
+    $!{value1}
+</p>
+<p>
+    #set($title ="czh")
+    Include: #include("header.vm")
+</p>
+<p>
+    #set($title ="czh")
+    Include: #parse("header.vm")
+</p>
+</body>
+</html>
